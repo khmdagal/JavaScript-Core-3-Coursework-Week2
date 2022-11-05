@@ -5,6 +5,8 @@ const container = document.querySelector("#container");
 const li = document.querySelector("#li_id");
 const image = document.querySelector("#img_id");
 
+image.width = "400"
+image.height = "400";
 
 
 button.addEventListener("click", async function fetchAPI() {
